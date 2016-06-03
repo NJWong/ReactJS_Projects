@@ -15,9 +15,9 @@ var CommentList = React.createClass({
         return (
             <div className="commentList">
                 <Comment author="Nick Wong">This is Nicks comment</Comment>
-                <Comment author="Arvin Wiyono">This is Arvin comment</Comment>
-                <Comment author="Ray Cho">This is Ray comment</Comment>
-                <Comment author="Dash Yin">This is Dash comment</Comment>
+                <Comment author="Arvin Wiyono">This is Arvins comment</Comment>
+                <Comment author="Ray Cho">This is Rays comment</Comment>
+                <Comment author="Dash Yin">This is Dashs comment</Comment>
             </div>
         );
     }
@@ -34,13 +34,18 @@ var CommentForm = React.createClass({
 });
 
 var Comment = React.createClass({
+    rawMarkup: function() {
+        var rawMarkup = marked(this.props.children.toString(), {sanitise: true});
+        return { __html: rawMarkup };
+    },
+
     render: function() {
         return (
             <div className="comment">
                 <h2 className="commentAuthor">
                     {this.props.author}
                 </h2>
-                {this.props.children}
+                <span dangerouslySetInnerHTML={this.rawMarkup()} />
             </div>
         );
     }
