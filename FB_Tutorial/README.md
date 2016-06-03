@@ -16,6 +16,6 @@ Functionality includes:
 ## Server
 This project makes use of a local running server. This server is used purely for demonstration purposes, and is thus extremely basic - do not run a server like this in production! :)
 
-The source code is provided by Facebook and is found in the "react-tutorial-master" folder. Instructions to run the server can be found at:
+The source code is provided by Facebook. The repository and instructions to run the server can be found at:
 
 https://github.com/reactjs/react-tutorial/#to-use
