@@ -1,27 +1,22 @@
 [
     {
-        "id": 1388534400000,
-        "author": "Pete Hunt",
-        "text": "Hey there!"
+        "id": 1465133845333,
+        "author": "Nicholas Wong",
+        "text": "This is the first comment!"
     },
     {
-        "id": 1420070400000,
-        "author": "Paul O’Shannessy",
-        "text": "React is *great*!"
-    },
-    {
-        "id": 1464920777597,
-        "author": "Nick",
-        "text": "Pretty cool!"
-    },
-    {
-        "id": 1464920799709,
-        "author": "Nick Wong",
-        "text": "This is a comment"
-    },
-    {
-        "id": 1465131588411,
+        "id": 1465133861326,
         "author": "Dash Yin",
-        "text": "Hello!"
+        "text": "Hello! This is the second comment in this comment list!"
+    },
+    {
+        "id": 1465134563669,
+        "author": "Arvin Wiyono",
+        "text": "abcdefghijklmnopqrstuvwxyz abcdefghijklmnopqrstuvwxyz abcdefghijklmnopqrstuvwxyz abcdefghijklmnopqrstuvwxyz"
+    },
+    {
+        "id": 1465134583800,
+        "author": "Ray Cho",
+        "text": "abcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyz"
     }
 ]

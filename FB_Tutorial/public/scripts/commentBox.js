@@ -99,17 +99,24 @@ var CommentForm = React.createClass({
   render: function() {
     return (
       <form className="commentForm" onSubmit={this.handleSubmit}>
-        <input
-          type="text"
-          placeholder="Your name"
-          value={this.state.author}
-          onChange={this.handleAuthorChange} />
-        <input
-          type="text"
-          placeholder="Your message..."
-          value={this.state.text}
-          onChange={this.handleTextChange} />
-        <input type="submit" value="Post" />
+        <div>
+          <input
+            type="text"
+            placeholder="Your name"
+            value={this.state.author}
+            onChange={this.handleAuthorChange} />
+        </div>
+        
+        <div>
+          <input
+            type="textarea"
+            placeholder="Your message..."
+            value={this.state.text}
+            onChange={this.handleTextChange} />
+        </div>
+        <div>
+          <input type="submit" value="Post" />
+        </div>
       </form>
     );
   }

@@ -1,0 +1,41 @@
+.commentBox {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.commentBox h1 {
+  text-align: center;
+}
+
+.commentList {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.comment {
+  border: 1px solid #D0021B;
+  width: 40%;
+  border-radius: 5px;
+  padding: 0 10px;
+  margin-bottom: 20px;
+}
+
+.comment h2 {
+  margin-top: 10px;
+}
+
+.comment span p {
+  word-wrap: break-word
+}
+
+.commentForm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.commentForm div {
+  margin-bottom: 10px;
+}
